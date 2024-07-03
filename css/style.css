@@ -1,1 +1,785 @@
+body,
+html {
+    font-family: 'Figtree', sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
 
+.ul {
+    margin: 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+p {
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-weight: 700;
+
+}
+
+h4 {
+    color: #f4ae35 !important;
+    font-weight: 700 !important;
+}
+
+h1 {
+    color: #034e91;
+    font-weight: 700 !important;
+}
+
+.navbar-nav li {
+    padding: 5px;
+}
+
+.navbar-toggle {
+    background-color: #000000;
+    border: 1px solid #000;
+    margin: 19px 15px 8px 0;
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    background-color: black;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/* STARTING INDEX.HTML */
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    min-height: 75px;
+    background-color: white;
+    margin-bottom: 0px;
+    color: #000000 !important;
+}
+
+.navbar .navbar-nav>li>a {
+    color: #000000;
+}
+
+.navbar {
+    border-color: white;
+}
+
+.navbar-right {
+    margin-top: 12px;
+
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        float: right !important;
+        margin-right: -60px;
+    }
+}
+
+.hero-text {
+    padding: 9rem 17rem 0rem 5rem;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar .navbar-nav>.contactus>a {
+    background-color: #034e91 !important;
+    border-radius: 5px;
+    color: #ffffff !important;
+    padding: 10px;
+}
+
+.navbar .navbar-nav>.contactus>a:hover {
+    background-color: #f4ae35 !important;
+    border-radius: 5px;
+    color: #000000 !important;
+}
+
+.navbar .navbar-nav>li>a:hover {
+    background-color: #f4ae35;
+    color: #000000 !important;
+    border-radius: 5px;
+}
+
+.navbar .navbar-nav>.nav-link active>a,
+.navbar .navbar-nav>.nav-link active>a:focus,
+.navbar .navbar-nav>.nav-link active>a:hover {
+    color: #000000;
+    background-color: #f4ae35;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    background-color: #f4ae35;
+    border-radius: 5px;
+}
+
+.navbar .navbar-nav>.nav-link active>a:hover {
+    color: #000000;
+    background-color: #f4ae35;
+    border-radius: 5px;
+}
+
+.learn-more {
+    background-color: #f4ae35;
+    border: 0 !important;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-logo {
+    max-width: 250px;
+    margin-left: -5px;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.navbar-nav me-auto mb-2 mb-lg-0 {
+    padding: 10px;
+    column-gap: 5px;
+}
+
+.about-us {
+    background-color: #034e91;
+    color: white;
+}
+
+@media only screen and (min-width:1800px) and (max-width:1920px) {
+    .navbar-nav .nav-item .nav-link {
+        padding-left: 10px !important;
+        margin-bottom: 10px;
+    }
+
+    .hero-text {
+        padding: 10rem 0rem 0rem 19rem !important;
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer-nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+        color: white;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:1300px) {
+    .navbar-nav .nav-item .nav-link {
+        padding-left: 10px !important;
+        margin-bottom: 10px;
+    }
+
+    .hero-text {
+        padding: 90px 0px 25px 31px !important;
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer-nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+        color: white;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:500px) {
+    .navbar-nav .nav-item .nav-link {
+        padding-left: 10px !important;
+        margin-bottom: 10px;
+    }
+
+    .hero-text {
+        padding: 50px 0px 50px 31px !important;
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer-nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+        color: white;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+.about-us-2 p {
+    color: black;
+    padding-right: 10px;
+}
+
+.services {
+    background-color: #182033;
+    height: 60%;
+    width: 100%;
+}
+
+.process {
+    background-color: #034e91;
+    height: 60%;
+    width: 100%;
+}
+
+.text-center-1 {
+    text-align: center !important;
+    margin-top: 2%;
+}
+
+.footer-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    color: white;
+}
+
+.footer-nav li {
+    margin: 0 10px;
+    color: white;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.footer-nav a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background-color: white;
+}
+
+.copyright {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    color: white;
+}
+
+.footer .footer-logo {
+    margin-bottom: 20px;
+    /* Adjust as needed */
+}
+
+.footer h5,
+.footer p {
+    margin-bottom: 10px;
+    /* Adjust as needed */
+}
+
+.footer {
+    background-color: #182033;
+    height: 60%;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.footer-logo {
+    max-width: 300px;
+    margin-left: -15px;
+}
+
+.hero-home-img-1 {
+    background: url('../images/hero-home-banner.jpg') center center no-repeat;
+    background-size: cover;
+    height: 575px;
+}
+
+.hero-home-img-3 {
+    background: url('../images/SVG_image/all5iconsinline.svg') center center no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+}
+
+.hero-home-img-4 {
+    background: url('../images/1x/n\ seetaraman\ 1_1-8.png') center center no-repeat;
+    background-size: contain;
+    height: 225px;
+    width: 70%;
+}
+
+.hero-home-img-5 {
+    background: url('../images/1x/padmaji\ r-8.png') center center no-repeat;
+    background-size: contain;
+    height: 225px;
+    width: 70%;
+}
+
+.firstphoto {
+    background-color: #d9e5ef;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.firstphoto img,
+.secondphoto img {
+    width: 150px;
+}
+
+
+.firstphoto:hover {
+    border-color: black;
+}
+
+.secondphoto {
+    background-color: #d9e5ef;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    /* Border is transparent by default */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.secondphoto:hover {
+    border-color: black;
+}
+
+/* ENDING INDEX.HTML */
+
+/* STARTING CORETEAM.HTML */
+
+.coreteam {
+    background-color: #034e91;
+    color: white;
+}
+
+.coreteam-1 h3 {
+    padding-top: 20px;
+    color: #034e91;
+}
+
+.hero-text-1 {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-home-img-6 {
+    background: url('../images/about-banner.jpg') center center no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.hero-home-img-7 {
+    background: url('../images/1x/n\ seetaraman\ 1_1-8.png') center no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 350%;
+}
+
+.hero-home-img-8 {
+    background: url('../images/1x/padmaji\ r-8.png') center no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 350%;
+}
+
+.hero-text-1 {
+    padding: 9rem 17rem 0rem 6rem;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-name {
+    color: black;
+    font-size: larger;
+    text-align: center;
+}
+
+@media only screen and (min-width:1800px) and (max-width:1920px) {
+    .hero-text-1 {
+        padding: 10rem 0rem 0rem 19rem !important;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:1300px) {
+    .hero-text-1 {
+        padding: 115px 0px 25px 35px !important;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:500px) {
+    .hero-text-1 {
+        padding: 50px 0px 50px 31px !important;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* ENDING CORETEAM.HTML */
+
+
+/* STARTING SERVICES.HTML */
+
+.hero-text-2 {
+    padding: 8rem 17rem 0rem 6rem;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-home-img-9 {
+    background: url('../images/1x/services.png') right no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.card {
+
+    padding: 9px !important;
+    height: 100%;
+    display: flex;
+
+    img {
+        width: 100%;
+        padding: 6%;
+        transition: 0.5s;
+    }
+
+    h4 {
+        color: #034e91 !important;
+        font-weight: 700 !important;
+        text-align: center;
+    }
+
+    ul {
+        color: #000;
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+}
+
+.card-li {
+    padding-bottom: 23px !important;
+}
+
+.hero-text-3 {
+    padding: 6rem 0rem 6rem 11rem !important;
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width:1800px) and (max-width:1920px) {
+    .hero-text-2 {
+        padding: 10rem 0rem 0rem 19rem !important;
+        height: 100%;
+        width: 100%;
+    }   
+}
+
+@media only screen and (min-width:500px) and (max-width:1300px) {
+    .hero-text-2 {
+        padding: 115px 100px 90px 33px !important;
+        height: 100%;
+        width: 100%;
+    }
+
+    .hero-text-3 {
+        padding: 6rem 0rem 6rem 2rem !important;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* The actual timeline (the vertical ruler) */
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: rgb(255, 166, 0);
+        top: 1% !important;
+        bottom: 20% !important;
+        left: 50%;
+        margin-left: -7px;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:500px) {
+    .hero-text-2 {
+        padding: 50px 0px 50px 10px !important;
+        height: 100%;
+        width: 100%;
+    }
+
+    .hero-text-3 {
+        padding: 6rem 0rem 6rem 0rem !important;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: rgb(255, 166, 0);
+        top: 1% !important;
+        bottom: 20% !important;
+        left: 6% !important;
+        margin-left: -6px !important;
+    }
+}
+
+/* ENDING SERVICES.HTML */
+
+
+/* STARTING PROCESS.HTML */
+
+.hero-home-img-11 {
+    background: url('../images/contact-banner.jpg') right no-repeat;
+    background-size: cover;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 15px auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgb(255, 166, 0);
+    top: 2%;
+    bottom: 18%;
+    left: 50%;
+    margin-left: -7px;
+}
+
+/* Container around content */
+.container-1 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.container-1::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: -8px;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 31px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #d9e5ef;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 31px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #d9e5ef transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 15px 10px;
+    background-color: #d9e5ef;
+    position: relative;
+    border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+    /* Full-width containers */
+    .container-1 {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .container-1::before {
+        left: 61px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #d9e5ef transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: -2%;
+    }
+}
+
+.timeline h3,
+p {
+    color: rgb(0, 0, 0) !important;
+}
+
+/* ENDING PROCESS.HTML */
+
+
+/* STARTING WHYUS.HTML */
+
+.hero-home-img-10 {
+    background: url('../images/why-banner.jpg') right no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.why-us {
+    h3 {
+        color: #034e91 !important;
+        ;
+    }
+
+    p {
+        color: #000 !important
+    }
+
+}
+
+/* ENDING WHYUS.HTML */
+
+
+/* STARTING CONTACTUS.HTML */
+
+.hero-home-img-12 {
+    background: url('../images/process-banner.jpg') right no-repeat;
+    background-size: cover;
+}
+
+.contactus {
+    h4 {
+        color: #034e91 !important;
+    }
+
+    p {
+        color: inherit;
+        color: black;
+    }
+}
+
+.box-1,
+.box-2 {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.box-1-1,
+.box-1-2 {
+    text-align: center;
+    padding-top: 10px;
+    border: 3px solid #00000038;
+    border-radius: 5px;
+}
+
+.form input,
+textarea {
+    border: 2px solid #00000038;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.email {
+    color: black !important;
+}
+
+.email:hover {
+    color: #034e91 !important;
+    text-decoration: underline !important;
+}
+
+/* ENDING CONTACTUS.HTML */
