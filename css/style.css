@@ -245,12 +245,17 @@ h1 {
 .about-us-2 p {
     color: black;
     padding-right: 10px;
+    text-align: justify;
 }
 
 .services {
     background-color: #182033;
     height: 60%;
     width: 100%;
+
+    p {
+        text-align: justify;
+    }
 }
 
 .process {
@@ -392,9 +397,24 @@ h1 {
     color: white;
 }
 
-.coreteam-1 h3 {
-    padding-top: 20px;
-    color: #034e91;
+.coreteam-1 {
+
+    p {
+        text-align: justify;
+    }
+
+    h3 {
+        padding-top: 20px;
+        color: #034e91;
+        text-align: justify;
+    }
+}
+
+.coreteam-2 {
+
+    p {
+        text-align: justify;
+    }
 }
 
 .hero-text-1 {
@@ -515,7 +535,7 @@ h1 {
         padding: 10rem 0rem 0rem 19rem !important;
         height: 100%;
         width: 100%;
-    }   
+    }
 }
 
 @media only screen and (min-width:500px) and (max-width:1300px) {
@@ -586,6 +606,14 @@ h1 {
     position: relative;
     max-width: 1200px;
     margin: 15px auto;
+
+    p {
+        text-align: justify;
+    }
+
+    h5{
+        font-weight: 700;
+    }
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -726,7 +754,8 @@ p {
     }
 
     p {
-        color: #000 !important
+        color: #000 !important;
+        text-align: justify;
     }
 
 }
